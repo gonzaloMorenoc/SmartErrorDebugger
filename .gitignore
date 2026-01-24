@@ -1,0 +1,28 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+PYTHON_ENV/
+
+# Archivos de la base de datos vectorial (CromaDB)
+db_chroma/
+
+# Datos locales de logs (pueden contener información sensible)
+data/logs/*.log
+data/logs/*.json
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Modelos y caches de HuggingFace/Transformers
+.cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Configuración de entornos
+.env
